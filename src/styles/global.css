@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+input[type=time]::datetime-edit-field.numeric{
+
+  display: inline !important;
+
+}
